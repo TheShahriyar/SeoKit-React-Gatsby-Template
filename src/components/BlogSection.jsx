@@ -4,6 +4,8 @@ import img1 from "../images/blog-images/blog-thumb-1.jpg"
 import img2 from "../images/blog-images/blog-thumb-2.jpg"
 import img3 from "../images/blog-images/blog-thumb-3.jpg"
 
+import { FaFacebookF, FaTwitter, FaPinterest, FaShareAlt } from "react-icons/fa"
+
 const BlogSection = () => {
   return (
     <>
@@ -38,16 +40,24 @@ const BlogSection = () => {
                         <span className="blog-grid__social">
                           <span className="blog-grid__social-icon">
                             <a href="#">
-                              <i className="fab fa-facebook-f"></i>
+                              <i>
+                                <FaFacebookF />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-twitter"></i>
+                              <i>
+                                <FaTwitter />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-pinterest"></i>
+                              <i>
+                                <FaPinterest />
+                              </i>
                             </a>
                           </span>
-                          <i className="fas fa-share-alt"></i>
+                          <i>
+                            <FaShareAlt />
+                          </i>
                         </span>
                       </span>
                     </div>
@@ -71,16 +81,24 @@ const BlogSection = () => {
                         <span className="blog-grid__social">
                           <span className="blog-grid__social-icon">
                             <a href="#">
-                              <i className="fab fa-facebook-f"></i>
+                              <i>
+                                <FaFacebookF />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-twitter"></i>
+                              <i>
+                                <FaTwitter />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-pinterest"></i>
+                              <i>
+                                <FaPinterest />
+                              </i>
                             </a>
                           </span>
-                          <i className="fas fa-share-alt"></i>
+                          <i>
+                            <FaShareAlt />
+                          </i>
                         </span>
                       </span>
                     </div>
@@ -104,16 +122,24 @@ const BlogSection = () => {
                         <span className="blog-grid__social">
                           <span className="blog-grid__social-icon">
                             <a href="#">
-                              <i className="fab fa-facebook-f"></i>
+                              <i>
+                                <FaFacebookF />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-twitter"></i>
+                              <i>
+                                <FaTwitter />
+                              </i>
                             </a>
                             <a href="#">
-                              <i className="fab fa-pinterest"></i>
+                              <i>
+                                <FaPinterest />
+                              </i>
                             </a>
                           </span>
-                          <i className="fas fa-share-alt"></i>
+                          <i>
+                            <FaShareAlt />
+                          </i>
                         </span>
                       </span>
                     </div>

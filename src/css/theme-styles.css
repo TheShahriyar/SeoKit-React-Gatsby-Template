@@ -984,7 +984,7 @@ h6 {
   width: auto;
 }
 
-.seokit-slideshow .active .seokit-slide-item .seokit-slide-layer-1 {
+.seokit-slide-item.active .seokit-slide-layer-1 {
   -webkit-animation: fadeInUp 0.3s both;
   animation: fadeInUp 0.3s both;
   -webkit-animation-duration: 1.3s;
@@ -993,7 +993,7 @@ h6 {
   animation-delay: 600ms;
 }
 
-.seokit-slideshow .active .seokit-slide-item .seokit-slide-layer-2 {
+.seokit-slide-item.active .seokit-slide-layer-2 {
   -webkit-animation: fadeInUp 0.3s both;
   animation: fadeInUp 0.3s both;
   -webkit-animation-duration: 1.3s;
@@ -1002,7 +1002,7 @@ h6 {
   animation-delay: 900ms;
 }
 
-.seokit-slideshow .active .seokit-slide-item .seokit-slide-layer-3 {
+.seokit-slide-item.active .seokit-slide-layer-3 {
   -webkit-animation: fadeInUp 0.3s both;
   animation: fadeInUp 0.3s both;
   -webkit-animation-duration: 1.3s;
@@ -1011,7 +1011,7 @@ h6 {
   animation-delay: 1200ms;
 }
 
-.seokit-slideshow .active .seokit-slide-item .seokit-slide-layer-4 {
+.seokit-slide-item.active .seokit-slide-layer-4 {
   -webkit-animation: fadeInUp 0.3s both;
   animation: fadeInUp 0.3s both;
   -webkit-animation-duration: 1.3s;
@@ -1020,7 +1020,7 @@ h6 {
   animation-delay: 1500ms;
 }
 
-.seokit-slideshow .active .seokit-slide-item .seokit-slideshow-img img {
+.seokit-slide-item.active .seokit-slideshow-img img {
   -webkit-animation: fadeInRight 0.3s both;
   animation: fadeInRight 0.3s both;
   -webkit-animation-duration: 1.3s;
